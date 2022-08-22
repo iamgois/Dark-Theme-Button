@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 14rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-moon, .fa-sun{
+    font-size: 3rem;
+    margin: 0 2.3rem;
+}
+
+.fa-moon{
+    color: white;
+}
+
+.background{
+    position: absolute;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    margin-right: 126px;
+    z-index: -1;
+}
