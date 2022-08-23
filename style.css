@@ -23,13 +23,17 @@
     align-items: center;
 }
 
+.border-white{
+    border: 2px solid white;
+}
+
 .fa-moon, .fa-sun{
     font-size: 3rem;
     margin: 0 2.3rem;
 }
 
 .fa-moon{
-    color: white;
+    color: black;
 }
 
 .background{
@@ -46,4 +50,14 @@
     margin-right: 0px;
     margin-left: 126px;
     background-color: white;
+}
+
+.section{
+    background: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.black{
+    background-color: black;
 }

@@ -1,6 +1,9 @@
-var button = document.getElementById('button');
 var bg = document.getElementById('background')
+var body = document.getElementById('section')
+var btn = document.getElementById('button')
 
-button.addEventListener('click', () => {
+function active(){
     bg.classList.toggle('right');
-});
+    body.classList.toggle('black');
+    btn.classList.toggle('border-white')
+}
